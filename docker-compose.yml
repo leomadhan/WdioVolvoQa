@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+    v-wdio:
+        image: dockerm26/v-wdio
+        init: true
+        read_only: true
+        tmpfs:
+          - ./tmp
+        volumes:       
+          - ./allure-report
+          - ./allure-results

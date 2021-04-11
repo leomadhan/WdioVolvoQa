@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Volvo cars safety page",
+    "children" : [ {
+      "name" : "check video is playing and validate pause/play",
+      "uid" : "9f803813c7c6d8c5",
+      "parentUid" : "c46cc76d694d5ecf026ae8b9e8c849c6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618130690679,
+        "stop" : 1618130710724,
+        "duration" : 20045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "c46cc76d694d5ecf026ae8b9e8c849c6"
+  }, {
+    "name" : "Volvo cars landing page title validation",
+    "children" : [ {
+      "name" : "navigate to saftey page",
+      "uid" : "ca67bad4762f0f65",
+      "parentUid" : "3a11ec1c919e316016217ae87dd574a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131154189,
+        "stop" : 1618131156888,
+        "duration" : 2699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Get title",
+      "uid" : "2339400b854e372c",
+      "parentUid" : "3a11ec1c919e316016217ae87dd574a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131156889,
+        "stop" : 1618131159992,
+        "duration" : 3103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Title Validation",
+      "uid" : "51fe64f48583e35f",
+      "parentUid" : "3a11ec1c919e316016217ae87dd574a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131159992,
+        "stop" : 1618131165403,
+        "duration" : 5411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "play video and validate pause/play",
+      "uid" : "4b27e5f6c6db511b",
+      "parentUid" : "3a11ec1c919e316016217ae87dd574a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131165418,
+        "stop" : 1618131173949,
+        "duration" : 8531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "3a11ec1c919e316016217ae87dd574a0"
+  } ]
+}

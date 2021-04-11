@@ -1,0 +1,51 @@
+[ {
+  "uid" : "51fe64f48583e35f",
+  "name" : "Title Validation",
+  "time" : {
+    "start" : 1618131159992,
+    "stop" : 1618131165403,
+    "duration" : 5411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca67bad4762f0f65",
+  "name" : "navigate to saftey page",
+  "time" : {
+    "start" : 1618131154189,
+    "stop" : 1618131156888,
+    "duration" : 2699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b27e5f6c6db511b",
+  "name" : "play video and validate pause/play",
+  "time" : {
+    "start" : 1618131165418,
+    "stop" : 1618131173949,
+    "duration" : 8531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2339400b854e372c",
+  "name" : "Get title",
+  "time" : {
+    "start" : 1618131156889,
+    "stop" : 1618131159992,
+    "duration" : 3103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f803813c7c6d8c5",
+  "name" : "check video is playing and validate pause/play",
+  "time" : {
+    "start" : 1618130690679,
+    "stop" : 1618130710724,
+    "duration" : 20045
+  },
+  "status" : "failed",
+  "severity" : "critical"
+} ]

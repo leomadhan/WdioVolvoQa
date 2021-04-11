@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="wdio image comparison service desktop" timestamp="2021-04-11T18:19:54" time="13.866" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="wdio-image-comparison-service desktop"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="file" value=".\test\specs\carSafetyPagevisualChk.js"/>
+    </properties>
+  </testsuite>
+  <testsuite name="compare element" timestamp="2021-04-11T18:19:54" time="13.833" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="compare element"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="file" value=".\test\specs\carSafetyPagevisualChk.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.windows.compare element" name="should save the compare element screenshot" time="13.831">
+      <failure message="Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)"><![CDATA[Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at <Jasmine>
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]]></failure>
+      <error message="Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/url - {"url":"https://www.volvocars.com/intl/v/car-safety"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety"}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/execute/sync - {"script":"document.cookie = \"OptanonAlertBoxClosed=2021-04-11T12:50:02.800Z;\";","args":[]}
+RESULT: {"script":"document.cookie = \"OptanonAlertBoxClosed=2021-04-11T12:50:02.800Z;\";","args":[]}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/refresh - {}
+RESULT: {}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/element - {"using":"css selector","value":"img[data-autoid=\"promotionBackgroundImage:image\"]"}
+RESULT: {"using":"css selector","value":"img[data-autoid=\"promotionBackgroundImage:image\"]"}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c92d2dca-4378-48cc-afd8-fc1d93edf28c","ELEMENT":"c92d2dca-4378-48cc-afd8-fc1d93edf28c"},true]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c92d2dca-4378-48cc-afd8-fc1d93edf28c","ELEMENT":"c92d2dca-4378-48cc-afd8-fc1d93edf28c"},true]}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/element - {"using":"css selector","value":"#PromotionBackgroundImage-1  a[data-autoid=\"promotionBackgroundImage:learnMore\"]"}
+RESULT: {"using":"css selector","value":"#PromotionBackgroundImage-1  a[data-autoid=\"promotionBackgroundImage:learnMore\"]"}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/element/d866c33a-b93a-4092-9326-31ab60151ce5/click - {}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/element - {"using":"css selector","value":".uk-button:nth-child(1)"}
+RESULT: {}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/element - {"using":"css selector","value":"#Video-1 button"}
+RESULT: {"using":"css selector","value":".uk-button:nth-child(1)"}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/execute/sync - {"script":"return (function hideScrollBars(hide) {\n    try {\n        if (hide) {\n            document.body.style.overflow = 'hidden';\n        }\n        else {\n            document.body.style.overflow = '';\n        }\n    }\n    catch (e) {\n    }\n}).apply(null, arguments)","args":[true]}
+RESULT: {"using":"css selector","value":"#Video-1 button"}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/execute/sync - {"script":"return (function () {\r\n              return document.readyState;\r\n            }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\n    try {\n        if (hide) {\n            document.body.style.overflow = 'hidden';\n        }\n        else {\n            document.body.style.overflow = '';\n        }\n    }\n    catch (e) {\n    }\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/execute/sync - {"script":"return (function getScreenDimensions() {\n    var body = document.body;\n    var html = document.documentElement;\n    var bodyDimensions = {\n        scrollHeight: body == null ? 0 : body.scrollHeight,\n  ... (1021 more bytes)","args":[]}
+RESULT: {"script":"return (function () {\r\n              return document.readyState;\r\n            }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\n    var body = document.body;\n    var html = document.documentElement;\n    var bodyDimensions = {\n        scrollHeight: body == null ? 0 : body.scrollHeight,\n  ... (1021 more bytes)","args":[]}
+COMMAND: GET /session/1cab900d58b998fe23bf7d415c508afd/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/1cab900d58b998fe23bf7d415c508afd/execute/sync - {"script":"window.scrollTo(0, 0);","args":[[]]}
+RESULT: {"script":"window.scrollTo(0, 0);","args":[[]]}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at <Jasmine>
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+]]></system-err>
+    </testcase>
+  </testsuite>
+  <testsuite name="compare fullpage" timestamp="2021-04-11T18:20:07" time="0.019" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="compare fullpage"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="file" value=".\test\specs\carSafetyPagevisualChk.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.windows.compare fullpage" name="should compare successful with a baseline" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="compare tabbable" timestamp="2021-04-11T18:20:07" time="0.001" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="compare tabbable"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="file" value=".\test\specs\carSafetyPagevisualChk.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.windows.compare tabbable" name="should compare successful with a baseline" time="0">
+      <skipped/>
+      <system-out><![CDATA[
+COMMAND: DELETE /session/1cab900d58b998fe23bf7d415c508afd - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

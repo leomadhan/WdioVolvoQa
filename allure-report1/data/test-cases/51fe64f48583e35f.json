@@ -1,0 +1,91 @@
+{
+  "uid" : "51fe64f48583e35f",
+  "name" : "Title Validation",
+  "fullName" : "Volvo cars landing page title validation.Title Validation",
+  "historyId" : "24bbf63c4e006987ae6062c5ba59d33c",
+  "time" : {
+    "start" : 1618131159992,
+    "stop" : 1618131165403,
+    "duration" : 5411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1618131165006,
+        "stop" : 1618131165403,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo cars landing page title validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo cars landing page title validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Title Validation"
+  }, {
+    "name" : "package",
+    "value" : "Volvo cars landing page title validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b01885055dbf172f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618130867400,
+        "stop" : 1618130872927,
+        "duration" : 5527
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51fe64f48583e35f.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

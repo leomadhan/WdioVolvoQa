@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Volvo cars landing page title validation" timestamp="2021-04-11T12:02:25" time="21.661" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Volvo cars landing page title validation"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="file" value=".\test\specs\carSafetyPage.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.windows.Volvo cars landing page title validation" name="navigate to saftey page" time="6.789">
+      <system-out><![CDATA[
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/url - {"url":"https://www.volvocars.com/intl/v/car-safety"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.89_0_4389_114.windows.Volvo cars landing page title validation" name="Get title" time="3.258">
+      <system-out><![CDATA[
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/execute/sync - {"script":"document.cookie = \"OptanonAlertBoxClosed=2021-04-11T06:32:32.099Z;\";","args":[]}
+RESULT: {"script":"document.cookie = \"OptanonAlertBoxClosed=2021-04-11T06:32:32.099Z;\";","args":[]}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/refresh - {}
+RESULT: {}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"img[data-autoid=\"promotionBackgroundImage:image\"]"}
+RESULT: {"using":"css selector","value":"img[data-autoid=\"promotionBackgroundImage:image\"]"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"62b7372e-732c-46dd-af38-931240eb1287","ELEMENT":"62b7372e-732c-46dd-af38-931240eb1287"},true]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"62b7372e-732c-46dd-af38-931240eb1287","ELEMENT":"62b7372e-732c-46dd-af38-931240eb1287"},true]}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"#PromotionBackgroundImage-1  a[data-autoid=\"promotionBackgroundImage:learnMore\"]"}
+RESULT: {"using":"css selector","value":"#PromotionBackgroundImage-1  a[data-autoid=\"promotionBackgroundImage:learnMore\"]"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element/985bc52d-7a3c-4ec3-8f42-8aa2d09c496d/click - {}
+RESULT: {}
+COMMAND: GET /session/7e1791a0c6226aaaaa3e1f743d611d0d/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.89_0_4389_114.windows.Volvo cars landing page title validation" name="Title Validation" time="5.015"/>
+    <testcase classname="chrome.89_0_4389_114.windows.Volvo cars landing page title validation" name="play video and validate pause play" time="6.579">
+      <system-out><![CDATA[
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"#Video-1 button"}
+RESULT: {"using":"css selector","value":"#Video-1 button"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element/b2baf00d-6b70-402e-a7d7-a07bf0b3486d/click - {}
+RESULT: {}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"#Video-1 iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 iframe"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/frame - {"id":{"sessionId":"7e1791a0c6226aaaaa3e1f743d611d0d","elementId":"0b2b2e7a-933d-4d51-aa09-5a78fecff78f","element-6066-11e4-a52e-4f735466cecf":"0b2b2e7a-933d-4d51-aa09-5a78fecff78f","selector":"#Video-1 iframe","parent":{"capabilities":{"acceptInsecureCerts":true,"browserName":"chrome","browserVersion":"89.0.4389.114","chrome":{"chromedriverVersion":"89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})","userDataDir":"C:\\Users\\madha\\AppData\\Local\\Temp\\scoped_dir11312_987347230"},"goog:chromeOptions":{"debuggerAddress":"localhost:64852"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"6 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:extension:largeBlob\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/specs/**/*.js"],"suites":{},"exclude":[],"logLevel":"error","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":10000,"framework":"jasmine","_":"50 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"specFileRetries\",\"specFileRetriesDelay\",\"specFileRetriesDeferred\",\"reporterSyncInterval\",\"reporterSyncTimeout\",\"cucumberFeaturesWithLineNumbers\",\"autoCompileOpts\",\"mochaOpts\",\"jasmineOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"hostname\",\"baseUrl\",\"jasmineNodechaOpts\",\"maximizeWindow\",\"_\",\"$0\",\"config-path\",\"ignoredWorkerServices\"]"},"_NOT_FIBER":true},"isReactElement":false}}
+RESULT: {"id":{"sessionId":"7e1791a0c6226aaaaa3e1f743d611d0d","elementId":"0b2b2e7a-933d-4d51-aa09-5a78fecff78f","element-6066-11e4-a52e-4f735466cecf":"0b2b2e7a-933d-4d51-aa09-5a78fecff78f","selector":"#Video-1 iframe","parent":{"capabilities":{"acceptInsecureCerts":true,"browserName":"chrome","browserVersion":"89.0.4389.114","chrome":{"chromedriverVersion":"89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})","userDataDir":"C:\\Users\\madha\\AppData\\Local\\Temp\\scoped_dir11312_987347230"},"goog:chromeOptions":{"debuggerAddress":"localhost:64852"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"6 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:extension:largeBlob\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/specs/**/*.js"],"suites":{},"exclude":[],"logLevel":"error","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":10000,"framework":"jasmine","_":"50 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"specFileRetries\",\"specFileRetriesDelay\",\"specFileRetriesDeferred\",\"reporterSyncInterval\",\"reporterSyncTimeout\",\"cucumberFeaturesWithLineNumbers\",\"autoCompileOpts\",\"mochaOpts\",\"jasmineOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"hostname\",\"baseUrl\",\"jasmineNodechaOpts\",\"maximizeWindow\",\"_\",\"$0\",\"config-path\",\"ignoredWorkerServices\"]"},"_NOT_FIBER":true},"isReactElement":false}}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"#movie_player"}
+RESULT: {"using":"css selector","value":"#movie_player"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/elements - {"using":"css selector","value":"#movie_player"}
+RESULT: {"using":"css selector","value":"#movie_player"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/elements - {"using":"css selector","value":"#movie_player"}
+RESULT: {"using":"css selector","value":"#movie_player"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"#movie_player"}
+RESULT: {"using":"css selector","value":"#movie_player"}
+COMMAND: GET /session/7e1791a0c6226aaaaa3e1f743d611d0d/element/4c74f5a8-9eeb-4a58-acdd-102920142771/attribute/class - {}
+RESULT: {}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":".ytp-play-button"}
+RESULT: {"using":"css selector","value":".ytp-play-button"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"74f7d671-df7a-44a5-8745-342577398165","ELEMENT":"74f7d671-df7a-44a5-8745-342577398165"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"74f7d671-df7a-44a5-8745-342577398165","ELEMENT":"74f7d671-df7a-44a5-8745-342577398165"}]}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"74f7d671-df7a-44a5-8745-342577398165","ELEMENT":"74f7d671-df7a-44a5-8745-342577398165"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"74f7d671-df7a-44a5-8745-342577398165","ELEMENT":"74f7d671-df7a-44a5-8745-342577398165"}]}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":".ytp-play-button"}
+RESULT: {"using":"css selector","value":".ytp-play-button"}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element/74f7d671-df7a-44a5-8745-342577398165/click - {}
+RESULT: {}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":"#movie_player"}
+RESULT: {"using":"css selector","value":"#movie_player"}
+COMMAND: GET /session/7e1791a0c6226aaaaa3e1f743d611d0d/element/4c74f5a8-9eeb-4a58-acdd-102920142771/attribute/class - {}
+RESULT: {}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/element - {"using":"css selector","value":".ytp-time-current"}
+RESULT: {"using":"css selector","value":".ytp-time-current"}
+COMMAND: GET /session/7e1791a0c6226aaaaa3e1f743d611d0d/element/549af898-a165-45d4-9c49-2bed312f5784/text - {}
+RESULT: {}
+COMMAND: POST /session/7e1791a0c6226aaaaa3e1f743d611d0d/frame/parent - {}
+RESULT: {}
+COMMAND: DELETE /session/7e1791a0c6226aaaaa3e1f743d611d0d - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

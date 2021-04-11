@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Apr 11 14:14:50 IST 2021","Sun Apr 11 14:15:10 IST 2021","20045","","Volvo cars safety page","","Volvo cars safety page","check video is playing and validate pause/play","check video is playing and validate pause/play",""
+"passed","Sun Apr 11 14:22:36 IST 2021","Sun Apr 11 14:22:39 IST 2021","3103","","Volvo cars landing page title validation","","Volvo cars landing page title validation","Get title","Get title",""
+"passed","Sun Apr 11 14:22:45 IST 2021","Sun Apr 11 14:22:53 IST 2021","8531","","Volvo cars landing page title validation","","Volvo cars landing page title validation","play video and validate pause/play","play video and validate pause/play",""
+"passed","Sun Apr 11 14:22:39 IST 2021","Sun Apr 11 14:22:45 IST 2021","5411","","Volvo cars landing page title validation","","Volvo cars landing page title validation","Title Validation","Title Validation",""
+"passed","Sun Apr 11 14:22:34 IST 2021","Sun Apr 11 14:22:36 IST 2021","2699","","Volvo cars landing page title validation","","Volvo cars landing page title validation","navigate to saftey page","navigate to saftey page",""

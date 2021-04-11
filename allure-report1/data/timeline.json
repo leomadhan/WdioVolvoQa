@@ -1,0 +1,165 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "navigate to saftey page",
+      "uid" : "ca67bad4762f0f65",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131154189,
+        "stop" : 1618131156888,
+        "duration" : 2699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "check video is playing and validate pause/play",
+      "uid" : "5fa9d5bc4ce236ce",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618129801400,
+        "stop" : 1618129816869,
+        "duration" : 15469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "navigate to saftey page",
+      "uid" : "a9ca3dd8ab0140f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618130851474,
+        "stop" : 1618130861677,
+        "duration" : 10203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Title Validation",
+      "uid" : "b01885055dbf172f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618130867400,
+        "stop" : 1618130872927,
+        "duration" : 5527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "play video and validate pause/play",
+      "uid" : "4b27e5f6c6db511b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131165418,
+        "stop" : 1618131173949,
+        "duration" : 8531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Get title",
+      "uid" : "2339400b854e372c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131156889,
+        "stop" : 1618131159992,
+        "duration" : 3103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "check video is playing and validate pause/play",
+      "uid" : "9f803813c7c6d8c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618130690679,
+        "stop" : 1618130710724,
+        "duration" : 20045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Get title",
+      "uid" : "8cb69820950fd925",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618130861682,
+        "stop" : 1618130867400,
+        "duration" : 5718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Title Validation",
+      "uid" : "51fe64f48583e35f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131159992,
+        "stop" : 1618131165403,
+        "duration" : 5411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "play video and validate pause/play",
+      "uid" : "3c1df3097f8031b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618130872929,
+        "stop" : 1618130882935,
+        "duration" : 10006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "check video is playing and validate pause/play",
+      "uid" : "5fd001ad8d5a829e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618130397407,
+        "stop" : 1618130417074,
+        "duration" : 19667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    }, {
+      "name" : "check video is playing and validate pause/play",
+      "uid" : "76ef88191daaec40",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618128748855,
+        "stop" : 1618128762572,
+        "duration" : 13717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

@@ -1,0 +1,228 @@
+{
+  "uid" : "8cb69820950fd925",
+  "name" : "Get title",
+  "fullName" : "Volvo cars landing page title validation.Get title",
+  "historyId" : "ffe52225645b07049bfecf1f5a20817d",
+  "time" : {
+    "start" : 1618130861682,
+    "stop" : 1618130867400,
+    "duration" : 5718
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1618130861688,
+        "stop" : 1618130862401,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d451f02612b1a2c",
+        "name" : "Request",
+        "source" : "d451f02612b1a2c.json",
+        "type" : "application/json",
+        "size" : 102
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1618130862401,
+        "stop" : 1618130862845,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618130863872,
+        "stop" : 1618130864023,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a055c712f5a914e",
+        "name" : "Request",
+        "source" : "5a055c712f5a914e.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "f75f94725e56dc46",
+        "name" : "Response",
+        "source" : "f75f94725e56dc46.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1618130864050,
+        "stop" : 1618130864179,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49de96d9562908fe",
+        "name" : "Request",
+        "source" : "49de96d9562908fe.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618130864183,
+        "stop" : 1618130864351,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "588b3881331185a1",
+        "name" : "Request",
+        "source" : "588b3881331185a1.json",
+        "type" : "application/json",
+        "size" : 126
+      }, {
+        "uid" : "58ab6fe3b14dba1e",
+        "name" : "Response",
+        "source" : "58ab6fe3b14dba1e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/6113f06a-3b3f-448e-a333-6c5b554d6fb2/click",
+      "time" : {
+        "start" : 1618130864356,
+        "stop" : 1618130866729,
+        "duration" : 2373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1618130866729,
+        "stop" : 1618130866737,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5eb4e08e67f6ebaa",
+        "name" : "Response",
+        "source" : "5eb4e08e67f6ebaa.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1618130866738,
+        "stop" : 1618130867399,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo cars landing page title validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo cars landing page title validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get title"
+  }, {
+    "name" : "package",
+    "value" : "Volvo cars landing page title validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cb69820950fd925.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

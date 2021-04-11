@@ -1,0 +1,144 @@
+{
+  "id": {
+    "sessionId": "180de008ffad3b998aa382c952fef0e2",
+    "elementId": "76009710-c115-46d6-9844-eb85970d8407",
+    "element-6066-11e4-a52e-4f735466cecf": "76009710-c115-46d6-9844-eb85970d8407",
+    "selector": "#Video-1 iframe",
+    "parent": {
+      "sessionId": "180de008ffad3b998aa382c952fef0e2",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "89.0.4389.114",
+        "chrome": {
+          "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+          "userDataDir": "C:\\Users\\madha\\AppData\\Local\\Temp\\scoped_dir9748_1640420067"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:59278"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true,
+        "webdriver.remote.sessionid": "180de008ffad3b998aa382c952fef0e2"
+      },
+      "config": {
+        "specs": [
+          "./test/specs/**/carSafetyPage.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "error",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 5000,
+        "framework": "jasmine",
+        "reporters": [
+          "spec",
+          [
+            "junit",
+            {
+              "outputDir": "./test/testReports",
+              "errorOptions": {
+                "error": "message",
+                "failure": "message",
+                "stacktrace": "stack"
+              }
+            }
+          ],
+          [
+            "allure",
+            {
+              "outputDir": "allure-results",
+              "disableWebdriverScreenshotsReporting": true
+            }
+          ]
+        ],
+        "services": [
+          "selenium-standalone"
+        ],
+        "maxInstances": 100,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 10000
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "hostname": "chromedriver",
+        "path": "/",
+        "jasmineNodechaOpts": {
+          "defaultTimeInterval": 50000
+        },
+        "baseUrl": "https://www.volvocars.com/",
+        "_": [
+          "run"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "config-path": "wdio.conf.js",
+        "ignoredWorkerServices": []
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

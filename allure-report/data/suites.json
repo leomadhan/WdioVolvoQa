@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Volvo cars safety page",
+    "children" : [ {
+      "name" : "check video is playing and validate pause/play",
+      "uid" : "bf3108a74bce305e",
+      "parentUid" : "c46cc76d694d5ecf026ae8b9e8c849c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618128748855,
+        "stop" : 1618128762572,
+        "duration" : 13717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "c46cc76d694d5ecf026ae8b9e8c849c6"
+  } ]
+}

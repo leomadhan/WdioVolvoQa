@@ -1,0 +1,98 @@
+{
+  "ffe52225645b07049bfecf1f5a20817d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2339400b854e372c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131156889,
+        "stop" : 1618131159992,
+        "duration" : 3103
+      }
+    } ]
+  },
+  "24bbf63c4e006987ae6062c5ba59d33c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51fe64f48583e35f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131159992,
+        "stop" : 1618131165403,
+        "duration" : 5411
+      }
+    } ]
+  },
+  "2828fee8dc0c423cc19bbe77ab60afc5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f803813c7c6d8c5",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1618130690679,
+        "stop" : 1618130710724,
+        "duration" : 20045
+      }
+    } ]
+  },
+  "da0549ed9dc50c887417c1f91cb877d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b27e5f6c6db511b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131165418,
+        "stop" : 1618131173949,
+        "duration" : 8531
+      }
+    } ]
+  },
+  "edb58a92b1ccda8c02841560912344ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca67bad4762f0f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131154189,
+        "stop" : 1618131156888,
+        "duration" : 2699
+      }
+    } ]
+  }
+}

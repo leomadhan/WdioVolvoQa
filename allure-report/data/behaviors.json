@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "check video is playing and validate pause/play",
+    "uid" : "bf3108a74bce305e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618128748855,
+      "stop" : 1618128762572,
+      "duration" : 13717
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-89.0.4389.114" ]
+  } ]
+}

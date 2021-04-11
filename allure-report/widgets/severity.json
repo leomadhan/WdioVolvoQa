@@ -1,0 +1,11 @@
+[ {
+  "uid" : "bf3108a74bce305e",
+  "name" : "check video is playing and validate pause/play",
+  "time" : {
+    "start" : 1618128748855,
+    "stop" : 1618128762572,
+    "duration" : 13717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

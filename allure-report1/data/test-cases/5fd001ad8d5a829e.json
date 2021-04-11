@@ -1,0 +1,360 @@
+{
+  "uid" : "5fd001ad8d5a829e",
+  "name" : "check video is playing and validate pause/play",
+  "fullName" : "Volvo cars safety page.check video is playing and validate pause/play",
+  "historyId" : "2828fee8dc0c423cc19bbe77ab60afc5",
+  "time" : {
+    "start" : 1618130397407,
+    "stop" : 1618130417074,
+    "duration" : 19667
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"#Video-1 button\" because element wasn't found\n                        at SafetyDetails.clickSafetyVideoToBeplay (V:\\Interview projects\\docker-wdio-parallel\\test\\pageobjects\\safetylearnmore.page.js:30:23)\n                        at UserContext.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\test\\specs\\carSafetyPgVideos.js:26:18)\n                --- End of stack trace ---",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"#Video-1 button\" because element wasn't found\n                        at SafetyDetails.clickSafetyVideoToBeplay (V:\\Interview projects\\docker-wdio-parallel\\test\\pageobjects\\safetylearnmore.page.js:30:23)\n                        at UserContext.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\test\\specs\\carSafetyPgVideos.js:26:18)\n                --- End of stack trace ---\n                    at Object.exports.getErrorFromFailedTest (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:77:60)\n                    at AllureReporter.onTestFail (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"#Video-1 button\" because element wasn't found\n                        at SafetyDetails.clickSafetyVideoToBeplay (V:\\Interview projects\\docker-wdio-parallel\\test\\pageobjects\\safetylearnmore.page.js:30:23)\n                        at UserContext.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\test\\specs\\carSafetyPgVideos.js:26:18)\n                --- End of stack trace ---",
+    "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"#Video-1 button\" because element wasn't found\n                        at SafetyDetails.clickSafetyVideoToBeplay (V:\\Interview projects\\docker-wdio-parallel\\test\\pageobjects\\safetylearnmore.page.js:30:23)\n                        at UserContext.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\test\\specs\\carSafetyPgVideos.js:26:18)\n                --- End of stack trace ---\n                    at Object.exports.getErrorFromFailedTest (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:77:60)\n                    at AllureReporter.onTestFail (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1618130398457,
+        "stop" : 1618130417067,
+        "duration" : 18610
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"#Video-1 button\" because element wasn't found\n                        at SafetyDetails.clickSafetyVideoToBeplay (V:\\Interview projects\\docker-wdio-parallel\\test\\pageobjects\\safetylearnmore.page.js:30:23)\n                        at UserContext.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\test\\specs\\carSafetyPgVideos.js:26:18)\n                --- End of stack trace ---\n                    at Object.exports.getErrorFromFailedTest (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:77:60)\n                    at AllureReporter.onTestFail (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1618130407616,
+          "stop" : 1618130411300,
+          "duration" : 3684
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3c382ae215286134",
+          "name" : "Request",
+          "source" : "3c382ae215286134.json",
+          "type" : "application/json",
+          "size" : 127
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1618130411300,
+          "stop" : 1618130411395,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "54acc58ac756c11d",
+          "name" : "Request",
+          "source" : "54acc58ac756c11d.json",
+          "type" : "application/json",
+          "size" : 102
+        }, {
+          "uid" : "24aaf30f44f9915",
+          "name" : "Response",
+          "source" : "24aaf30f44f9915.json",
+          "type" : "application/json",
+          "size" : 10
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1618130411493,
+          "stop" : 1618130411529,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "abdf8a3d762234c9",
+          "name" : "Request",
+          "source" : "abdf8a3d762234c9.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/refresh",
+        "time" : {
+          "start" : 1618130411530,
+          "stop" : 1618130411867,
+          "duration" : 337
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3328368dc248fc96",
+          "name" : "Response",
+          "source" : "3328368dc248fc96.json",
+          "type" : "application/json",
+          "size" : 1139
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1618130411936,
+          "stop" : 1618130412912,
+          "duration" : 976
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3a35e7324003f25b",
+          "name" : "Request",
+          "source" : "3a35e7324003f25b.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1618130412912,
+          "stop" : 1618130413106,
+          "duration" : 194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b94e463d9ee3395c",
+          "name" : "Request",
+          "source" : "b94e463d9ee3395c.json",
+          "type" : "application/json",
+          "size" : 95
+        }, {
+          "uid" : "9183a9b96a602c4e",
+          "name" : "Response",
+          "source" : "9183a9b96a602c4e.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1618130413112,
+          "stop" : 1618130413239,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ddbca8284e3d20e9",
+          "name" : "Request",
+          "source" : "ddbca8284e3d20e9.json",
+          "type" : "application/json",
+          "size" : 302
+        }, {
+          "uid" : "b26fd46ad1a42543",
+          "name" : "Response",
+          "source" : "b26fd46ad1a42543.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1618130413274,
+          "stop" : 1618130413411,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "156d408411a77996",
+          "name" : "Request",
+          "source" : "156d408411a77996.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1618130413412,
+          "stop" : 1618130413549,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1fdaa5522dc33428",
+          "name" : "Request",
+          "source" : "1fdaa5522dc33428.json",
+          "type" : "application/json",
+          "size" : 126
+        }, {
+          "uid" : "a92562fc749363b5",
+          "name" : "Response",
+          "source" : "a92562fc749363b5.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1618130413570,
+          "stop" : 1618130413633,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1a703f285207e277",
+          "name" : "Request",
+          "source" : "1a703f285207e277.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "b263e7d4c805cf61",
+          "name" : "Response",
+          "source" : "b263e7d4c805cf61.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/element/137180d2-25ca-4cae-b790-eb4240712edf/click",
+        "time" : {
+          "start" : 1618130413644,
+          "stop" : 1618130417067,
+          "duration" : 3423
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Timeout - Async function did not complete within 10000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (internal/timers.js:554:17)\n                        at processTimers (internal/timers.js:497:7)\n                --- End of stack trace ---\n                    Error: Can't call click on element with selector \"#Video-1 button\" because element wasn't found\n                        at SafetyDetails.clickSafetyVideoToBeplay (V:\\Interview projects\\docker-wdio-parallel\\test\\pageobjects\\safetylearnmore.page.js:30:23)\n                        at UserContext.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\test\\specs\\carSafetyPgVideos.js:26:18)\n                --- End of stack trace ---\n                    at Object.exports.getErrorFromFailedTest (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:77:60)\n                    at AllureReporter.onTestFail (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (V:\\Interview projects\\docker-wdio-parallel\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "944b3df87dcaf896",
+        "name" : "Request",
+        "source" : "944b3df87dcaf896.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 11,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 16
+    } ],
+    "attachments" : [ {
+      "uid" : "3de04693da1f0adf",
+      "name" : "Response",
+      "source" : "3de04693da1f0adf.json",
+      "type" : "application/json",
+      "size" : 184
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 17
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "video playing category"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo cars safety page"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo cars safety page"
+  }, {
+    "name" : "testMethod",
+    "value" : "check video is playing and validate pause/play"
+  }, {
+    "name" : "package",
+    "value" : "Volvo cars safety page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fd001ad8d5a829e.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

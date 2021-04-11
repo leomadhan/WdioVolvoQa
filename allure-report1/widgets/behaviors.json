@@ -1,0 +1,15 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "6f738561a9319de05ba60da2e8f45664",
+    "name" : "video playing category",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
